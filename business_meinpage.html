@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="business_meinpage.css"/>
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="jquery-3.3.1.js"></script>
+    <script src="bootstrap.js"></script>
+  </head>
+  <body class="layout--center">
+    <header class="p-header_menu-mein clearfix">
+        <div class="mein_logoimg">
+            <img src="img/lglogo.png">
+        </div>
+        <div class="p-header_menu-3">
+                <a href="#">
+                    KOR
+                </a>
+                <a href="#">
+                    ENG
+                </a>
+        </div>
+      <ul class="p-header_menu-2 clearfix">
+        <li class="nav-item dropdown">
+            <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+            >
+            LG 소개
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="container">
+                    <div class="row">
+                          <ul class="nav flex-column">
+                              <li class="nav-item">
+                                  <a class="nav-link active" href="#">LG Way</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#"> CI</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">역사</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">주요계열사</a>
+                              </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Lg사이언스파크</a>
+                              </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+                <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                미디어
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="container">
+                        <div class="row">
+                              <ul class="nav flex-column">
+                                  <li class="nav-item">
+                                      <a class="nav-link active" href="#">보도자료</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#"> 동영상</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">매거진</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">소셜미디어</a>
+                                  </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li class="nav-item dropdown">
+                <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                CSR
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="container">
+                        <div class="row">
+                              <ul class="nav flex-column">
+                                  <li class="nav-item">
+                                      <a class="nav-link active" href="#">비전</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">지속가능경영</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">사회공헌</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">공익재단</a>
+                                  </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li class="nav-item dropdown">
+                <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                IR
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="container">
+                        <div class="row">
+                              <ul class="nav flex-column">
+                                  <li class="nav-item">
+                                      <a class="nav-link active" href="#">기업지배구조</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">재무정보</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">공시정보</a>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#">IR자료실
+                                      </a>
+                                  </li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+        </li>
+        <li class="nav-item dropdown">
+                <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                채용
+                </a>
+        </li>
+      </ul>
+    </header>
+    <!-- <span class="mein_bg">
+      <div class="slide">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </span> -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+          
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/download.jpg">
+                <div class="carousel-caption">
+                  텍스트
+                </div>
+              </div>
+              <div class="item">
+                <img src="img/download-1.jpg">
+                <div class="carousel-caption">
+                  텍스트
+                </div>
+              </div>
+              <div class="item">
+                    <img src="img/download-2.jpg">
+                    <div class="carousel-caption">
+                      텍스트
+                    </div>
+                  </div>
+            </div>
+          
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    <section class="content">
+      <ul class="c_nav clearfix">
+        <li class="content-1">
+          <div class="content_img_1">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                    2018 SID 디스플레이 위크<br><br>
+                    <p>
+                    미국 로스앤젤레스 컨벤션 센터에서 디스플레이의 향연, 
+                    ‘SID(Society for Information Display, 국제정보디스플레이학회) 2018’ 
+                    전시회가 열렸습니다.
+                    </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-2">
+          <div class="content_img_2">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                    LG U+, 세계 최초 5G 상용화 서비스 개시<br><br>
+                        <p>
+LG유플러스 하현회 부회장은 1일 자정 서울 마곡 사옥에서 주요 경영진들과 
+세계 최초 5G 전파 송출 행사에 참석해, 첫 5G 전파 발사 점등식, 
+깃발 꽂기 세레머니 등을 통해 새로운 5G 시대 선도를 향한 자신감을 드러냈습니다. 
+                        </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-3">
+          <div class="content_img_3">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                LG TWINS 찾아가는 야구교실<br><br>
+                  <p>
+초등학교를 직접 방문하여 학교 친구들과 함께 참여할 수 있는 야구교실입니다. 
+2014년부터 운영된 학교방문 야구교실 은 앞으로도 더 많은
+어린이들이 야구의 재미와 즐거움을 느낄 수 있도록 지속적으로 확대 운영될 예정입니다.
+                </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-4">
+          <div class="content_img_4">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                LG생건 영업이익 첫 1조…14년째 성장<br><br>
+                <p>
+지난해 매출과 영업이익 14년 연속 성장을 기록했다고 전했다. 
+사드사태의 여파로 K뷰티 시장이 어려운 환경에서
+화장품이 큰 폭으로 성장해 주목된다. 매출 1조원을 돌파하고 2년 만에 국내
+화장품 업계에서는 순매출 2조원을 달성했다. 
+                </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-5">
+          <div class="content_img_5">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+<p style="font-size:16px;">2019 New Collectin 프리미엄 가전</p>LG SIGNATURE
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-6">
+          <div class="content_img_6">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                세상을 바꿀 신사업 드론 시장 <br><br>
+                <p>
+LG이노텍은 열영상 카메라 모듈의 시장 자체를 키워가겠다는 포부다.
+활용 가치가 충분한 만큼 성능을 개선하고 가격을 낮추면 적용 분야가
+빠르게 확대될 것이란 기대다. 군사 등 특수 시장에서 가전, 자동차, 드론 등 민간 
+시장으로 확대하는 것이 우선 목표다.
+                </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-7">
+          <div class="content_img_7">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                  LG 사이언스파크<br><br>
+                  <p>
+LG는 4차 산업혁명 시대를 선제적으로 대응하기 위한 핵심가치를 ‘융복합 기술 창출’로 보고,
+다양한 분야의 연구원들이 협업하여 새로운 혁신을 이끌어가는 복합 연구단지를 구성하였습니다.
+전자, 화학, 바이오, 소프트웨어, 통신 등 다양한 분야의 R&D 인재가 모여 LG를 넘어 
+대한민국의 미래성장을 위한 전진기지가 될 것입니다.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-8">
+          <div class="content_img_8">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                LG전자, '가성비' 높인 LG G8 씽큐 22일 출시<br><br>
+                <p>
+LG G8 씽큐의 국내 출고가는 89만 7,600원이다. 퀄컴 스냅드래곤 855를 탑재했으며 색상은 카민레드, 뉴오로라블랙, 뉴모로칸블루 등 3종이다. 
+LG G8 씽큐는 고객이 자주 사용하는 기능에 집중해 프리미엄 디자인과 성능을 갖추면서도 가성비를 높였다.
+카메라 모듈에 언더글라스 방식을 적용, 후면 카메라 돌출이 전혀 없다. 또한 앞면 수화부 리시버를 없애 디자인 완성도를 높였다.
+                </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="content-9">
+          <div class="content_img">
+            <div class="back layout--table">
+              <div class="baba layout--table-cell">
+                <a href="" class="none_text">
+                  호버 메뉴
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <ul class="contribution">
+        <li class="contribution_part_1">
+          <div class="contribution_img_1">
+            <a href="#" class="contribution_link_t">
+                링크메뉴1
+            </a>
+            <p class="contribution_text">
+                텍스트1
+            </p>
+          </div>
+        </li>
+        <li class="contribution_part_2">
+          <div class="contribution_img_2">
+            <a href="#" class="contribution_link_t">
+                    링크메뉴2
+            </a>
+            <p class="contribution_text">
+                    텍스트2
+            </p>
+          </div>
+        </li>
+        <li class="contribution_part_3">
+          <div class="contribution_img_3">
+            <a href="#" class="contribution_link_t">
+                링크메뉴3
+            </a>
+            <p class="contribution_text">
+                텍스트3
+            </p>
+          </div>
+        </li>
+        <li class="contribution_part_4">
+          <div class="contribution_img_4">
+            <a href="#" class="contribution_link_t">
+                링크메뉴4
+            </a>
+            <p class="contribution_text">
+                텍스트4
+            </p>
+          </div>
+        </li>
+        <li class="contribution_part_5">
+          <div class="contribution_img_5">
+            <a href="#" class="contribution_link_t">
+                엘지
+            </a>
+            <p class="contribution_text"></p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <footer>
+            <ul class="footer_bgcolor clearfix">
+                <li class="footer_part_1">
+                    <img src="img/lglogo.png">
+                </li>
+                <li class="footer_part_2">
+                    <a href="#">
+                        고객문의
+                    </a>
+                </li>
+                <li class="footer_part_3">
+                    <a href="#">
+                        사이트맵
+                    </a>
+                </li>
+                <li class="footer_part_4">
+                    <a href="#">
+                        개인정보처리방침
+                    </a>
+                </li>
+            </ul>
+            <span class="sub_company">
+                <a href="#">
+                    자회사 바로가기
+                    <img src="#">
+                </a>
+            </span>
+        </span>
+        <span class="layout--table"> 
+            <span class="layout--table-cell">
+                <p class="footer_text">
+                    Copyright ⓒ LG Corp. All Rights Reserved.
+                </p>
+            </span>
+        </span>
+    </footer>
+  </body>
+</html>
