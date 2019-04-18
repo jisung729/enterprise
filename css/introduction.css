@@ -167,9 +167,6 @@ body {font-family: "Noto Sans KR", "sans-serif"; height: 100%;}
 .sidebar ul{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.sidebar li{
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
 .fixed-header a {
     display: block;
     line-height: 60px;
