@@ -98,18 +98,7 @@ a {text-decoration: none; color:inherit; margin: 0; padding: 0; bottom: 0; verti
          design
 ===================================== */
 
-.body{height: 2000px;}
-
-.float_left{
-    float: left;
-  }
-  .float_right{
-    float: right;
-  }
-  .block{
-    display: block;
-  }
-  /*상단 헤더*/
+/*상단 헤더*/
 
 .p-header_menu-mein{
     position: fixed;

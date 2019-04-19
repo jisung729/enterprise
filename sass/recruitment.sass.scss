@@ -1,0 +1,153 @@
+$gid_lgc:#aa1238;
+$gid_lgb:#cccccc;
+
+/* full 백그라운드 */
+
+.full_bg{
+    width: 100%;
+    height: 100%;
+    overflow: inherit;
+}
+
+/* full 백그라운드 */
+/*상단 헤더*/
+
+.p-header_menu-mein{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 20px;
+    width: 100%;
+    transition: all .5s;
+
+.nav-up {
+    top: -200px;
+  }
+.logo_g{
+    float: left;
+}
+.mein_logoimg{
+    width: 140px;
+    height: 60px;
+    float: left;
+    margin-top: 8px;
+}
+.mein_logoimg img{
+    width: 100%;
+    height: 100%;
+}
+.p-header_menu-2{
+    margin: 0 auto;
+    display: table;
+    padding-right: 5%;
+}
+.p-header_menu-3{
+    float: right;
+    margin-top: 29px;
+}
+.p-header_menu-3 a{
+    font-size: 12px;
+    padding-right: 10px;
+    border-right: 1px solid;
+}
+.p-header_menu-3 a:last-child{
+    padding-left: 10px;
+    border-right: 0;
+}
+.nav-item{
+    float: left;
+}
+.nav-item a{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 25px;
+    margin: 5px 20px;
+
+    }
+}
+/*상단 헤더*/
+
+/* 상단 50% 페이드 */
+.main_banner{
+    float: left;
+    width: 70%;
+}
+.carousel-inner{
+}
+/* 상단 50% 페이드 */ 
+
+/* 50% 삼단컨텐츠 */
+.lgcontent{
+    float: left;
+    width: 30%;
+
+}
+.content_list_intro{
+    li{
+        width: 100%;
+        height: 233.33px;
+        box-sizing: border-box;
+        border-bottom: 1px solid red;
+        background-color: yellow;
+    }
+}
+
+
+/* 삼단컨텐츠 */ 
+
+/* count */
+.count{
+    width: 70%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid red;
+    li{
+        display: inline-block;
+    }
+}
+/* count */  
+
+
+
+
+
+
+
+
+
+/*푸터*/
+footer{
+    position: relative;
+    background-color: #cccccc;
+    height: 90px;
+    text-align: center;
+    font-size: 10px;
+}
+.footer_bgcolor{
+    position: absolute;
+    top: 38px;
+    left: 20px;
+}
+[class*=footer_part_]{
+    float: left;
+    padding: 0 10px;;
+    border-right: 1px solid #696969;
+}
+.footer_part_1{
+    width: 60px;
+    height: 15px;
+    top: 0;
+    left: 0;
+}
+.footer_part_1 img{
+    width: 100%;
+    height: 100%;
+}
+.footer_part_4{
+    border-right: 0px solid #696969;
+}
+.sub_company{
+    position: absolute;
+    top: 28px;
+    right: 20px;
+}
