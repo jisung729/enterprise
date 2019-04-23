@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/introduction.css" />
+    <link rel="stylesheet" href="css/introduction.css"/>
     <link rel="stylesheet" href="bootstrap/bootstrap.css"/>
   </head>
   <body>
-  <div class="bgbg layout--center">
-      <header class="p-header_menu-mein clearfix">
+
+    <header class="p-header_menu-mein clearfix">
           <div class="mein_logoimg">
+            <a href="index.html">
               <img src="img/lglogo.png">
+            </a>
           </div>
           <div class="p-header_menu-3">
                   <a href="#">
@@ -37,19 +39,16 @@
                               <div class="row">
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="#">LG Way</a>
+                                            <a class="nav-link active" href="introduction.html">LG Way</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#"> CI</a>
+                                            <a class="nav-link" href="ci.html"> CI</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">역사</a>
+                                            <a class="nav-link" href="subsidiary.html">주요계열사</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">주요계열사</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Lg사이언스파크</a>
+                                            <a class="nav-link" href="science.html">Lg사이언스파크</a>
                                         </li>
                                     </ul>
                               </div>
@@ -73,7 +72,7 @@
                                   <div class="row">
                                         <ul class="nav flex-column">
                                             <li class="nav-item">
-                                                <a class="nav-link active" href="#">보도자료</a>
+                                                <a class="nav-link active" href="press_release.html">보도자료</a>
                                             </li>
                                             <li class="nav-item">
                                                 <a class="nav-link" href="#"> 동영상</a>
@@ -157,20 +156,15 @@
                           </div>
                   </li>
                   <li class="nav-item dropdown">
-                  <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  >
+                  <a  href="recruitment.html">
                   채용
                   </a>
                   </li>
               </ul>
-      </header>
+    </header>
+
+    <div class="bgbg layout--center">
+      
     <div class="sidebar fixed-header" id="main-header">
       <nav>
         <ul>
@@ -197,7 +191,7 @@
         </ul>
       </nav>
     </div>
-    <section class="top_bg_text">
+    <div class="top_bg_text">
       <div class="top_text">
         
         <h3>LG Way</h3>
@@ -206,8 +200,8 @@
         </p>
       </div>
         <img src="img/bg.png" class="topimg">
-    </section>
-    <section class="layout--table">
+    </div>
+    <div class="layout--table">
           <div class="summary-content" id="home">
             <div class="inner">
               <div class="outline">
@@ -458,12 +452,16 @@
                   </div>
               </div>
           </div>
-    </section>
+        </div>
+
+    </div>
 
     <footer>
         <ul class="footer_bgcolor clearfix">
             <li class="footer_part_1">
+              <a href="index.html">
                 <img src="img/lglogo.png">
+              </a>
             </li>
             <li class="footer_part_2">
                 <a href="#">
@@ -488,32 +486,16 @@
             </a>
         </span>
     </span>
-    <span class="layout--table"> 
-        <span class="layout--table-cell">
-            <p class="footer_text">
+        <span class="footer_text">
+            <p class="">
                 Copyright ⓒ LG Corp. All Rights Reserved.
             </p>
         </span>
-    </span>
-</footer>
-
-
-
-
-
-
-
-
-
-    </div>
-
+    </footer>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/introduction.js"></script>
     <script src="bootstrap/bootstrap.js"></script>
     <script src="js/sidebar.js"></script>
-    <script>
-        var elm = document.querySelector('#main-header');
-        var ms = new MenuSpy(elm);
-      </script>
+    
   </body>
 </html>

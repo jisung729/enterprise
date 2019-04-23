@@ -97,7 +97,6 @@ body {font-family: "Noto Sans KR", "sans-serif"; height: 100%;}
 
 
   /*상단 헤더*/
-
   .p-header_menu-mein{
     position: fixed;
     top: 0;
@@ -335,7 +334,6 @@ body {font-family: "Noto Sans KR", "sans-serif"; height: 100%;}
 /*푸터*/
 footer{
     position: relative;
-    width: 100%;
     background-color: #cccccc;
     height: 90px;
     text-align: center;
@@ -343,11 +341,13 @@ footer{
 }
 .footer_bgcolor{
     position: absolute;
-    top: 38px;
+    top: 50%;
     left: 20px;
+    margin-top: -7px;
 }
 [class*="footer_part_"]{
-    float: left;
+    display: inline-block;
+    vertical-align: middle;
     padding: 0 10px;;
     border-right: 1px solid #696969;
 }
@@ -366,7 +366,14 @@ footer{
 }
 .sub_company{
     position: absolute;
-    top: 28px;
+    top: 50%;
     right: 20px;
+    margin-top: -10px;
 }
-
+.footer_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5px;
+    margin-left: -88px;
+}
